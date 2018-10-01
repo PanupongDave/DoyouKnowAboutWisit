@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={'https://graph.facebook.com/100002420637495/picture?width=800'} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Wisit, He come from panga</h1>
         </header>
         <p className="App-intro">
