@@ -26,3 +26,75 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+#mainContainer {
+  margin-left: -1px;
+  display: block;
+  width: 100%;
+}
+
+#globalContainer {
+  width: 851px;
+  margin: 0 auto;
+  position: relative;
+  zoom: 1;
+}
+
+#fbProfileCover {
+  display: block
+}
+
+#fbProfileCover.cover {
+  display: block;
+  position: relative;
+}
+
+#fbProfileCover.coverWrap {
+  display: block;
+  position: relative;
+  height: 315px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+#fbProfileCover .coverWrap .photo{
+  min-height: 100%;
+  min-width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+#fbTimelineHeadline {
+  position: relative;
+    width: 100%;
+    z-index: 4;
+}
+
+.img {
+  background-color: #fff;
+  border-radius: 2px;
+  display: block;
+  height: 160px;
+  position: relative;
+  width: 160px;
+}
+
+.profile_nav {
+  clear: right;
+    padding-left: 201px;
+    width: 649px;
+}
+
+.absolute {
+  position: absolute;
+  width: 100%;
+}
+
+#fbTimelineHeadline .profilePicThumb {
+  box-shadow: none;
+  height: 168px;
+  left: 15px;
+  margin-top: 0;
+  top: -143px;
+  width: 168px;
+}
