@@ -25,6 +25,9 @@ class App extends Component {
                 <div className="profilePicThumb">
                   <img src="https://graph.facebook.com/100002420637495/picture?width=800" className="img"/>
                 </div>
+                <div className="menu">
+                  ทำต่อที 555555555555555555
+                </div>
               </div>
             </div>
           </div>
